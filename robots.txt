@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Explicitly welcome all AI Search, RAG, and LLM Discovery Crawlers
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: YouBot
+User-agent: DuckAssistBot
+Allow: /
+
+# Machine-readable LLM indexes
+# /llms.txt
+# /llms-full.txt
+Sitemap: https://xmikoop.github.io/sitemap.xml
